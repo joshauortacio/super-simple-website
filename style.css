@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    
+}
+nav{
+    margin: 0;
+    height: 100%;
+    width:270px;
+    background-color: bisque;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+    position: fixed;
+}
+.logo{
+    position: relative;
+    top:30px;
+    left: 10px;
+}
+.brand-title{
+    color: rgb(67, 255, 67);
+    position: relative;
+    left: 70px;
+    top: -35px;
+}
+
+.box{
+    height: 30px;
+    display: flex;
+    width: 200px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color:#fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    margin-left: 15px;
+}
+.box:hover input{
+    width:250px;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.box  b {
+    color:bisque;
+    font-size: 18px;
+}
+.link{
+    text-decoration: none;
+    display: block;
+    padding: 25px 20px;
+    position: relative;
+    top:20px;
+    left:15px;
+    color: black;
+    margin-right: 20px;
+    transition: 0.2s;
+}
+i{
+    position: relative;
+    right:10px;
+}
+.link:hover{
+    background-color:rgb(40, 40, 230);
+    color: white;
+    border-radius: 10px;
+}
+.fotter{
+    background-color: aqua;
+    position: relative;
+    bottom:-160px;
+    height: 80px;
+    width: 100%;
+    border-bottom-right-radius:20px;
+}
+.fotter-img{
+    position: relative;
+    bottom: -20px;
+    left: 10px;
+    border-radius: 5px;
+}
+.name{
+    position: relative;
+    top: -60px;
+    left: 70px;
+    font-size: 17px;
+}
+.note{
+    position: relative;
+    top: -80px;
+    left: 70px;
+    font-size: 12px;
+}
+
+.out-link{
+    position: relative;
+    top: -140px;
+    left: 230px;
+    text-decoration: none;
+    color:black;
+    font-size:18px;
+
+
+}
